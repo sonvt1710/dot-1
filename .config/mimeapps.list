@@ -1,19 +1,21 @@
 [Added Associations]
-image/jpeg=gimp.desktop;mirage.desktop;
+image/jpeg=gimp.desktop;mirage.desktop;org.kde.gwenview.desktop;
 image/webp=gimp.desktop;
 x-scheme-handler/tg=userapp-Telegram Desktop-3H6X70.desktop;userapp-Telegram Desktop-ETLMA1.desktop;
 x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;
 application/octet-stream=firefox.desktop;
-x-scheme-handler/mailto=userapp-Thunderbird-8CG252.desktop;userapp-Thunderbird-02JMC1.desktop;
-x-scheme-handler/mid=userapp-Thunderbird-8CG252.desktop;userapp-Thunderbird-02JMC1.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-O0KVK3.desktop;userapp-Thunderbird-8CG252.desktop;userapp-Thunderbird-02JMC1.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-O0KVK3.desktop;userapp-Thunderbird-8CG252.desktop;userapp-Thunderbird-02JMC1.desktop;
 text/calendar=org.gnome.Evolution.desktop;
 image/png=feh.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
 application/x-zerosize=firefox.desktop;
+x-scheme-handler/webcal=userapp-Thunderbird-OHOXK3.desktop;
+x-scheme-handler/webcals=userapp-Thunderbird-OHOXK3.desktop;
 
 [Default Applications]
-image/jpeg=mirage.desktop
+image/jpeg=org.kde.gwenview.desktop
 image/png=mirage.desktop
 image/gif=mirage.desktop
 application/pdf=mupdf.desktop
@@ -33,8 +35,11 @@ x-scheme-handler/about=firefox.desktop
 x-scheme-handler/unknown=firefox.desktop
 x-scheme-handler/mailspring=Mailspring.desktop
 x-scheme-handler/tg=userapp-Telegram Desktop-ETLMA1.desktop
-x-scheme-handler/mailto=userapp-Thunderbird-8CG252.desktop
-message/rfc822=userapp-Thunderbird-8CG252.desktop
-x-scheme-handler/mid=userapp-Thunderbird-8CG252.desktop
-text/calendar=org.gnome.Evolution.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-O0KVK3.desktop
+message/rfc822=userapp-Thunderbird-O0KVK3.desktop
+x-scheme-handler/mid=userapp-Thunderbird-O0KVK3.desktop
+text/calendar=userapp-Thunderbird-OHOXK3.desktop
 application/x-zerosize=firefox.desktop
+x-scheme-handler/webcal=userapp-Thunderbird-OHOXK3.desktop
+application/x-extension-ics=userapp-Thunderbird-OHOXK3.desktop
+x-scheme-handler/webcals=userapp-Thunderbird-OHOXK3.desktop

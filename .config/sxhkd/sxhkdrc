@@ -8,7 +8,7 @@ super + Return
 
 # change wallpaper
 super + c
-	feh --bg-fill -r -z ~/Pictures/wallpapers/wallpapers/abstract/
+	feh --bg-fill -r -z ~/Pictures/wallpapers/wallpapers/poseidon/
 
 # Blank screen
 alt + l
@@ -30,7 +30,7 @@ super + Escape
 # bspwm hotkeys
 #
 
-# quit/restart bspwm
+# quit/rest bspwm
 super + alt + {q,r}
 	bspc {quit,wm -r}
 
