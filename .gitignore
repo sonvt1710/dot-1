@@ -293,3 +293,6 @@
 .config/plasmaparc
 .config/ytdl-gui/
 .config/qtws_Google Drive/
+.config/kate
+.config/kate-externaltoolspluginrc
+.config/kwriterc
