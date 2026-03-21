@@ -62,7 +62,7 @@ blinking = "off"
 shape = "Beam"
 
 [font]
-size = 10.5
+size = 10
 
 [font.bold]
 family = "Hack Nerd Font Mono"
@@ -102,5 +102,5 @@ columns = 150
 lines = 45
 
 [window.padding]
-x = 5
-y = 5
+x = 15
+y = 15
