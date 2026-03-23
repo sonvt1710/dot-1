@@ -1,70 +1,59 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-family: Hack Nerd Font, Helvetica, Arial, sans-serif;
     font-size: 13px;
     min-height: 0;
+    padding: .2rem .1rem;
 }
 
 window#waybar {
-    background: rgba(43, 48, 59, 0.5);
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
-    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fbf1c7;
 }
 
 tooltip {
-  background: rgba(43, 48, 59, 0.5);
-  border: 1px solid rgba(100, 114, 125, 0.5);
+  background: #282828;
+  border: 1px solid #fe8019;
 }
 tooltip label {
-  color: white;
+  color: #ebdbb2;
 }
 
 #workspaces button {
     padding: 0 5px;
     background: transparent;
-    color: white;
-    border-bottom: 3px solid transparent;
+    color: #ebdbb2;
 }
 
-#workspaces button.focused {
-    background: #64727D;
-    border-bottom: 3px solid white;
+#workspaces button.active {
+    color: #83a598; 
 }
 
-#mode, #clock, #battery {
-    padding: 0 10px;
-}
-
-#mode {
-    background: #64727D;
-    border-bottom: 3px solid white;
-}
-
-#clock {
-    background-color: #64727D;
+#cpu, #temperature, #battery, #pulseaudio, #backlight {
+    padding: 0 .3rem;
+    margin-right: 1.5rem; 
 }
 
 #battery {
-    background-color: #ffffff;
-    color: black;
+    margin-right: 3rem;
+}
+
+#workspaces {
+    margin-left: 2rem;
+}
+
+#clock {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 13px;
 }
 
 #battery.charging {
-    color: white;
-    background-color: #26A65B;
-}
-
-@keyframes blink {
-    to {
-        background-color: #ffffff;
-        color: black;
-    }
+    color: #b8bb26;
 }
 
 #battery.warning:not(.charging) {
-    background: #f53c3c;
-    color: white;
+    color: #fb4934;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: steps(12);
