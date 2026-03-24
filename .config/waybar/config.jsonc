@@ -104,7 +104,7 @@
         "on-click": "$HOME/.config/waybar/scripts/posideon.sh",
         "on-click-middle": "$HOME/.config/waybar/scripts/art.sh",
         "on-click-right": "$HOME/.config/waybar/scripts/landscape.sh",
-        "format": "   "
+        "format": "   ",
     }
 
 }
