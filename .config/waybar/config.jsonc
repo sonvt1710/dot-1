@@ -101,9 +101,9 @@
     },
 
     "custom/wallpaper": {
-        "on-click": "$HOME/.config/waybar/scripts/posideon.sh",
+        "on-click": "$HOME/.config/waybar/scripts/blueZones.sh",
         "on-click-middle": "$HOME/.config/waybar/scripts/art.sh",
-        "on-click-right": "$HOME/.config/waybar/scripts/landscape.sh",
+        "on-click-right": "$HOME/.config/waybar/scripts/abstract.sh",
         "format": "   "
     }
 
