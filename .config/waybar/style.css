@@ -27,7 +27,7 @@ tooltip label {
 }
 
 #workspaces button.active {
-    color: #83a598; 
+    color: #ebdbb2; 
 }
 
 #cpu, #temperature, #battery, #pulseaudio, #backlight {
