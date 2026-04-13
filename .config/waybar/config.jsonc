@@ -1,17 +1,19 @@
 {
     "layer": "top",
     "modules-left": [
-        "hyprland/workspaces"
     ],
 
-    "modules-center": ["clock"],
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
 
     "modules-right": [
         "custom/wallpaper",
         "temperature",
         "pulseaudio",
         "backlight",
-        "battery"
+        "battery",
+        "clock"
     ],
 
     "sway/window": {

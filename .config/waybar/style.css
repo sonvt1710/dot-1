@@ -8,7 +8,7 @@
 }
 
 window#waybar {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0,0,0,.8); 
     color: #fbf1c7;
 }
 
@@ -35,12 +35,8 @@ tooltip label {
     margin-right: 1.5rem; 
 }
 
-#battery {
+#clock {
     margin-right: 3rem;
-}
-
-#workspaces {
-    margin-left: 2rem;
 }
 
 #clock {
@@ -49,7 +45,7 @@ tooltip label {
 }
 
 #battery.charging {
-    color: #b8bb26;
+    color: #ebdbb2; 
 }
 
 #battery.warning:not(.charging) {
