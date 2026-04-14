@@ -62,10 +62,10 @@ blinking = "off"
 shape = "Beam"
 
 [font]
-size = 10
+size = 11
 
 [font.bold]
-family = "Hack Nerd Font Mono"
+family = "Courier Prime"
 style = "Bold"
 
 [font.glyph_offset]
@@ -73,11 +73,11 @@ x = 0
 y = 0
 
 [font.italic]
-family = "Hack Nerd Font Mono"
+family = "Courier Prime"
 style = "Italic"
 
 [font.normal]
-family = "Hack Nerd Font Mono"
+family = "Courier Prime"
 style = "Regular"
 
 [font.offset]
