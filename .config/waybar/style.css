@@ -40,8 +40,8 @@ tooltip label {
 }
 
 #clock {
-    font-family: Montserrat, Helvetica, Arial, sans-serif;
-    font-size: 13px;
+    font-family: Courier Prime, monospace;
+    font-size: 1.1rem;
 }
 
 #battery.charging {
