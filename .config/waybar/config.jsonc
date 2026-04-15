@@ -9,6 +9,7 @@
 
     "modules-right": [
         "custom/wallpaper",
+        "idle_inhibitor",
         "temperature",
         "pulseaudio",
         "backlight",
@@ -86,6 +87,14 @@
         "device": "intel_backlight",
         "format": "{percent} {icon}",
         "format-icons": ["󰛩", "󰛩"]
+    },
+
+    "idle_inhibitor": {
+    "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        }
     },
 
     "cpu": {

@@ -30,7 +30,7 @@ tooltip label {
     color: #ebdbb2; 
 }
 
-#cpu, #temperature, #battery, #pulseaudio, #backlight {
+#cpu, #temperature, #battery, #pulseaudio, #backlight, #idle_inhibitor {
     padding: 0 .3rem;
     margin-right: 1.5rem; 
 }
