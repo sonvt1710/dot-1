@@ -1,8 +1,8 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: Hack Nerd Font, Helvetica, Arial, sans-serif;
-    font-size: 13px;
+    font-family: CourierPrimeNerdFont, Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
     min-height: 0;
     padding: .2rem .1rem;
 }
@@ -31,17 +31,12 @@ tooltip label {
 }
 
 #cpu, #temperature, #battery, #pulseaudio, #backlight, #idle_inhibitor {
-    padding: 0 .3rem;
-    margin-right: 1.5rem; 
+    padding: 0 .2rem;
+    margin-right: 1.3rem; 
 }
 
 #clock {
-    margin-right: 3rem;
-}
-
-#clock {
-    font-family: Courier Prime, monospace;
-    font-size: 1.1rem;
+    margin-right: 2rem;
 }
 
 #battery.charging {

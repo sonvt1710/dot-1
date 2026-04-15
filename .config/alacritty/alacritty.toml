@@ -65,7 +65,7 @@ shape = "Beam"
 size = 11
 
 [font.bold]
-family = "Courier Prime"
+family = "CourierPrimeNerdFont"
 style = "Bold"
 
 [font.glyph_offset]
@@ -73,11 +73,11 @@ x = 0
 y = 0
 
 [font.italic]
-family = "Courier Prime"
+family = "CourierPrimeNerdFont"
 style = "Italic"
 
 [font.normal]
-family = "Courier Prime"
+family = "CourierPrimeNerdFont"
 style = "Regular"
 
 [font.offset]
