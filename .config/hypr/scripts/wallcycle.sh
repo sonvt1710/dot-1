@@ -1,6 +1,9 @@
 #!/bin/bash
 
 WALLDIR="$HOME/Pictures/wallpapers/wallpapers/blue-zones/"
+PIDFILE="/tmp/wall-loop.pid"
+
+echo $$ > "$PIDFILE"
 
 while true; do
     IMG=$(find "$WALLDIR" -type f | shuf -n 1)
