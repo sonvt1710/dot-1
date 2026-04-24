@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WALLDIR="$HOME/Pictures/wallpapers/wallpapers/blue-zones/"
+WALLDIR="$HOME/Pictures/wallpapers/wallpapers/animals/"
 PIDFILE="/tmp/wall-loop.pid"
 
 echo $$ > "$PIDFILE"
