@@ -1,4 +1,6 @@
 .DS_Store
+.config/kdedefaults/
+.config/kded5rc
 .config/okularrc
 .config/org.gnome.Ptyxis/
 .config/audacity/
@@ -54,12 +56,11 @@
 .config/dolphinrc
 .config/kateschemarc
 .config/kconf_updaterc
-.config/kdeglobals
-.config/kiorc
-.config/kscreenlockerrc
-.config/kservicemenurc
-.config/ksmserverrc
-.config/kwinrc
+config/kiorc
+config/kscreenlockerrc
+config/kservicemenurc
+config/ksmserverrc
+config/kwinrc
 .config/trashrc
 .config/oomox/
 .config/blender/
@@ -77,8 +78,6 @@
 .config/kactivitymanagerd-statsrc
 .config/kactivitymanagerdrc
 .config/kcminputrc
-.config/kde.org/
-.config/kded5rc
 .config/kglobalshortcutsrc
 .config/kmixctrlrc
 .config/kmixrc
@@ -89,7 +88,6 @@
 .config/kxkbrc
 .config/libaccounts-glib/
 .config/plasma-localerc
-.config/plasma-org.kde.plasma.desktop-appletsrc
 .config/plasmashellrc
 .config/redshift/
 .config/xsettingsd/
@@ -110,9 +108,6 @@
 .config/pavucontrol.ini
 .config/google-chrome/
 .config/Atom/
-.config/kdenlive-layoutsrc
-.config/kdenlive.kmessagebox
-.config/kdenliverc
 .config/transmission
 .config/gpick
 .config/pocket-casts-linux/
@@ -159,7 +154,6 @@
 .config/gwenviewrc
 .config/ibus/
 .config/kalarmrc
-.config/kdeconnect/
 .config/kfontinstuirc
 .config/kgammarc
 .config/kgpgrc
@@ -227,7 +221,6 @@
 .config/katemetainfos
 .config/katerc
 .config/katevirc
-.config/kdedefaults/
 .config/konsolerc
 .config/konsolesshconfig
 .config/ktorrent_infowidgetrc
@@ -236,7 +229,6 @@
 .config/sddmthemeinstallerrc
 .config/specialmailcollectionsrc
 .config/transmission-remote-gtk/
-.config/xdg-desktop-portal-kderc
 .config/background
 .config/falkon/
 .config/gnome-layout-switcher.conf
@@ -263,12 +255,10 @@
 .config/htop/
 .config/gtk-4.0/colors.css
 .config/gtk-4.0/gtk.css
-.config/kded6rc
 .config/kwinoutputconfig.json
 .config/plasma-nm
 .config/plasmanotifyrc
 .config/tabletprofilesrc
-.config/wacomtablet-kderc
 .config/pup-gui
 .config/hexchat
 .config/weechat
@@ -280,15 +270,10 @@
 .config/cachyos-hello.json
 .config/cachyos/
 .config/gtk-4.0/window_decorations.css
-.config/kdeconnect_/
-.config/kded5rc_
-.config/kdedefaults_/
 .config/konsolerc_
 .config/libinput-gestures.conf
 .config/librewolf/
 .config/mozilla/
-.config/plasma-org.kde.plasma.desktop-appletsrc_
-.config/plasma-org.kde.plasma.desktop-appletsrc_0
 .config/powermanagementprofilesrc_
 .config/plasmaparc
 .config/ytdl-gui/
@@ -299,3 +284,7 @@
 .config/waypaper/
 .config/nicotine/
 .config/kcmfonts
+.config/filetypesrc
+.config/knighttimerc
+.config/micro/
+.config/kdeconnect/
