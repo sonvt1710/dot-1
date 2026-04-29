@@ -86,15 +86,8 @@ zstyle ':vcs_info:*' enable git
 
 # Aliases
 ## App launchers
-alias tsm='transmission-remote'
-alias v='nvim'
-alias f='ranger'
-alias t='btop'
-alias weather='clear && curl wttr.in'
-alias kill='killall -q'
-alias wal='feh --bg-fill -z'
 alias ls='lsd'
-#alias cat='bat'
+alias cat='bat'
 alias fetch='clear; neofetch && fortune ~/.scripts/quotes/quotes'
 
 ## Terminal maintenance

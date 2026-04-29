@@ -14,13 +14,17 @@ immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.slideshow
+wallpaperplugin=org.kde.color
+
+[Containments][1][Wallpaper][org.kde.color][General]
+Color=0,0,0
 
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/cachyos-wallpapers/BlueNekoLady.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][1][Wallpaper][org.kde.slideshow][General]
+Image=file:///home/makc/Pictures/wallpapers/wallpapers/animals/jeroen-bosch-GKkIHrSCuPk-unsplash.jpg
 SlidePaths=/home/makc/Pictures/wallpapers/wallpapers/animals/
 
 [Containments][2]
@@ -79,6 +83,26 @@ plugin=org.kde.plasma.panelspacer
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
+[Containments][2][Applets][35]
+immutability=1
+plugin=org.kde.plasma.colorpicker
+
+[Containments][2][Applets][35][Configuration]
+popupHeight=325
+popupWidth=324
+
+[Containments][2][Applets][37]
+immutability=1
+plugin=org.kde.plasma_applet_dict
+
+[Containments][2][Applets][37][Configuration]
+popupHeight=252
+popupWidth=298
+
+[Containments][2][Applets][37][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
 [Containments][2][Applets][4]
 immutability=1
 plugin=org.kde.plasma.pager
@@ -90,6 +114,14 @@ DialogWidth=810
 [Containments][2][Applets][4][Configuration][General]
 displayedText=Number
 showWindowOutlines=false
+
+[Containments][2][Applets][43]
+immutability=1
+plugin=org.kde.plasma.keyboardlayout
+
+[Containments][2][Applets][43][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
 
 [Containments][2][Applets][5]
 immutability=1
@@ -117,14 +149,6 @@ popupHeight=432
 popupWidth=432
 wallpaperplugin=org.kde.image
 
-[Containments][2][Applets][7][Applets][10]
-immutability=1
-plugin=org.kde.plasma.clipboard
-
-[Containments][2][Applets][7][Applets][11]
-immutability=1
-plugin=org.kde.plasma.manage-inputmethod
-
 [Containments][2][Applets][7][Applets][12]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
@@ -132,10 +156,6 @@ plugin=org.kde.plasma.keyboardlayout
 [Containments][2][Applets][7][Applets][13]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
-
-[Containments][2][Applets][7][Applets][14]
-immutability=1
-plugin=org.kde.plasma.notifications
 
 [Containments][2][Applets][7][Applets][15]
 immutability=1
@@ -167,6 +187,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][2][Applets][7][Applets][19][Configuration][General]
+currentTab=streams
 migrated=true
 
 [Containments][2][Applets][7][Applets][22]
@@ -181,10 +202,6 @@ plugin=org.kde.plasma.battery
 immutability=1
 plugin=org.kde.plasma.brightness
 
-[Containments][2][Applets][7][Applets][25]
-immutability=1
-plugin=org.kde.plasma.mediacontroller
-
 [Containments][2][Applets][7][Applets][8]
 immutability=1
 plugin=org.kde.kdeconnect
@@ -193,12 +210,17 @@ plugin=org.kde.kdeconnect
 immutability=1
 plugin=org.kde.plasma.cameraindicator
 
+[Containments][2][Applets][7][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
 [Containments][2][Applets][7][General]
-extraItems=org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume
+disabledStatusNotifiers=caffeine
+extraItems=org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume
 knownItems=org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume
 
 [Containments][2][General]
-AppletOrder=31;5;32;4;6;33;29;7;20
+AppletOrder=31;5;32;4;6;33;35;37;43;29;7;20
 
 [Containments][23][Applets][28][Applets][37]
 plugin=org.kde.plasma.keyboardindicator

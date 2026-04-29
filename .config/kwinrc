@@ -31,7 +31,9 @@ NightTemperature=3500
 
 [Plugins]
 blurEnabled=false
+colorblindnesscorrectionEnabled=true
 mousemarkEnabled=true
+zoomEnabled=false
 
 [Tiling][0c52f8d8-c501-433e-9cfd-45461d246bd7][b18cce7b-02f9-4ae6-a6ec-824f457ab95b]
 padding=4
@@ -73,5 +75,5 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [org.kde.kdecoration2]
-library=org.kde.kwin.aurorae
-theme=kwin4_decoration_qml_plastik
+library=org.kde.breeze
+theme=Breeze
