@@ -1,4 +1,5 @@
 .DS_Store
+.config/kalarmresources
 .config/.mono/
 .config/KeePass/
 .config/flutter/
@@ -321,3 +322,4 @@ config/kwinrc
 .config/vifm/vifmrc
 .config/assets
 .config/nwg-look/
+.config/btop/btop.conf
