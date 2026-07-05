@@ -1,4 +1,5 @@
 .DS_Store
+.config/kdenliverc
 .config/kalarmresources
 .config/.mono/
 .config/KeePass/
